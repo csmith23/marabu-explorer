@@ -3,7 +3,7 @@ import { id } from './object'
 
 const FULLNODE_HOST = 'localhost'
 const FULLNODE_PORT = 18018
-const CHAIN_LIMIT = 50
+const CHAIN_LIMIT = 250
 
 export function getClient() {
   const client = MessageSocket.createClient(`${FULLNODE_HOST}:${FULLNODE_PORT}`)
