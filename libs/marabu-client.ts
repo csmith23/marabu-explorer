@@ -1,7 +1,7 @@
 import { MessageSocket } from './net'
 import { id } from './object'
 
-const FULLNODE_HOST = '0.0.0.0'
+const FULLNODE_HOST = 'localhost'
 const FULLNODE_PORT = 18018
 const CHAIN_LIMIT = 50
 
